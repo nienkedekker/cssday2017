@@ -45,6 +45,7 @@ Outer display: relationship with parents
 Inner display: formatting context
 
 Blockification
+
 Inlinification
 
 You can override display: table-cell with Grid, so you don't always need feature queries! So two sets of code are not needed.
@@ -61,3 +62,19 @@ Don't change Grid code, change writing mode! From left and right to start and en
 Names lines create a named area, which in turn can be used as named lines.
 
 If something odd happens, try using longhand. If that doesn't work, ask people. The spec is not always perfect and could be written more clearly.
+
+## Mark Boulton: Designing grids
+There are no rules, there are just good (and bad) decisions.
+* https://en.wikipedia.org/wiki/David_Carson_(graphic_designer)
+
+Why design a grid in the first place? They provide order and connectedness. It aids in usability and comprehension. Where should what go?
+
+Content informs the layout, not the other way around. The whole point of a grid is to connect space.
+
+Grids can be iterated upon: it's not design once, then you're done.
+
+Compound: two grids in the same space, overlaid. You can use on or the other, or a combination of the two.
+
+Typesetting: do it until it feels right.
+
+Hanging punctuation: https://css-tricks.com/almanac/properties/h/hanging-punctuation/
