@@ -78,3 +78,25 @@ Compound: two grids in the same space, overlaid. You can use on or the other, or
 Typesetting: do it until it feels right.
 
 Hanging punctuation: https://css-tricks.com/almanac/properties/h/hanging-punctuation/
+
+## Jen Simmons: Writing modes
+Direction needs to be defined in the HTML element, not the CSS!
+
+`<html lang="en-US" dir="rtl">`
+
+* https://developer.mozilla.org/nl/docs/Web/HTML/Element/bdo
+* https://developer.mozilla.org/nl/docs/Web/HTML/Element/bdi
+* https://www.chenhuijing.com/zh-type/
+* http://labs.jensimmons.com/2016/workshop/
+* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Logical_Properties
+
+Alignment: Block (vertical)
+
+Justify: Inline (horizontal)
+
+## Tab Atkins: Houdini & the Future
+* http://blogs.perficient.com/perficientdigital/2016/08/03/houdini-a-new-development-in-css/
+
+## Chris Coyier: Four Properties
+* https://developer.mozilla.org/en-US/docs/Web/CSS/shape-outside
+* https://rachelandrew.co.uk/archives/2016/03/16/css-exclusions-and-grid-layout/
